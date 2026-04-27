@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
     "deploy:ic": "dfx deploy frontend --ic && dfx canister update-settings frontend --add-controller fjmsa-s52hr-hx7f3-e22hu-2xnsd-u6ats-s44th-25ngn-s4vgx-wspyr-pae --ic"
   },
   "dependencies": {
