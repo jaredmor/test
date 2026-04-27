@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
+    "deploy:ic": "dfx deploy t2ep4-sqaaa-aaaaa-qdjta-cai --ic && dfx canister update-settings t2ep4-sqaaa-aaaaa-qdjta-cai --add-controller fjmsa-s52hr-hx7f3-e22hu-2xnsd-u6ats-s44th-25ngn-s4vgx-wspyr-pae --ic"
   },
   "dependencies": {
     "next": "16.2.1",
